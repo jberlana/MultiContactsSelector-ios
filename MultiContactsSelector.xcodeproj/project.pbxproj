@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5B8238A145693AF005E1871 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B82389145693AF005E1871 /* UIKit.framework */; };
+		B5B8238C145693AF005E1871 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B8238B145693AF005E1871 /* Foundation.framework */; };
+		B5B8238E145693AF005E1871 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B8238D145693AF005E1871 /* CoreGraphics.framework */; };
+		B5B82394145693AF005E1871 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5B82392145693AF005E1871 /* InfoPlist.strings */; };
+		B5B82396145693AF005E1871 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B82395145693AF005E1871 /* main.m */; };
+		B5B8239A145693AF005E1871 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B82399145693AF005E1871 /* AppDelegate.m */; };
+		B5B8239D145693AF005E1871 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B8239C145693AF005E1871 /* ViewController.m */; };
+		B5B823A0145693AF005E1871 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B8239E145693AF005E1871 /* ViewController.xib */; };
+		B5B823A8145693E2005E1871 /* SMContactsSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823A7145693E2005E1871 /* SMContactsSelector.m */; };
+		B5B823AA1456941D005E1871 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B823A91456941D005E1871 /* AddressBook.framework */; };
+		B5B823AC14569429005E1871 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B823AB14569429005E1871 /* AddressBookUI.framework */; };
+		B5B823B01456949A005E1871 /* NSString+Additions.h.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823AF1456949A005E1871 /* NSString+Additions.h.m */; };
+		B5B823C0145694D2005E1871 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823B5145694D2005E1871 /* NSObject+SBJSON.m */; };
+		B5B823C1145694D2005E1871 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823B7145694D2005E1871 /* NSString+SBJSON.m */; };
+		B5B823C2145694D2005E1871 /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823B9145694D2005E1871 /* SBJSON.m */; };
+		B5B823C3145694D2005E1871 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823BB145694D2005E1871 /* SBJsonBase.m */; };
+		B5B823C4145694D2005E1871 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823BD145694D2005E1871 /* SBJsonParser.m */; };
+		B5B823C5145694D2005E1871 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823BF145694D2005E1871 /* SBJsonWriter.m */; };
+		B5B823C914569500005E1871 /* UIAlertView+UITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5B823C814569500005E1871 /* UIAlertView+UITableView.m */; };
+		B5B823CB145697CB005E1871 /* SMContactsSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5B823CA145697CB005E1871 /* SMContactsSelector.xib */; };
+		B5B823CE145699A7005E1871 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B823CC145699A7005E1871 /* checked.png */; };
+		B5B823CF145699A7005E1871 /* unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = B5B823CD145699A7005E1871 /* unchecked.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B5B82385145693AF005E1871 /* MultiContactsSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiContactsSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5B82389145693AF005E1871 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B5B8238B145693AF005E1871 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B5B8238D145693AF005E1871 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B5B82391145693AF005E1871 /* MultiContactsSelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiContactsSelector-Info.plist"; sourceTree = "<group>"; };
+		B5B82393145693AF005E1871 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B5B82395145693AF005E1871 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B5B82397145693AF005E1871 /* MultiContactsSelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiContactsSelector-Prefix.pch"; sourceTree = "<group>"; };
+		B5B82398145693AF005E1871 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B5B82399145693AF005E1871 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B5B8239B145693AF005E1871 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B5B8239C145693AF005E1871 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B5B8239F145693AF005E1871 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B5B823A6145693E2005E1871 /* SMContactsSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMContactsSelector.h; sourceTree = "<group>"; };
+		B5B823A7145693E2005E1871 /* SMContactsSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMContactsSelector.m; sourceTree = "<group>"; };
+		B5B823A91456941D005E1871 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B5B823AB14569429005E1871 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		B5B823AE1456949A005E1871 /* NSString+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; path = "NSString+Additions.h"; sourceTree = "<group>"; };
+		B5B823AF1456949A005E1871 /* NSString+Additions.h.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Additions.h.m"; sourceTree = "<group>"; };
+		B5B823B3145694D2005E1871 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		B5B823B4145694D2005E1871 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		B5B823B5145694D2005E1871 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		B5B823B6145694D2005E1871 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		B5B823B7145694D2005E1871 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		B5B823B8145694D2005E1871 /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		B5B823B9145694D2005E1871 /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		B5B823BA145694D2005E1871 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		B5B823BB145694D2005E1871 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		B5B823BC145694D2005E1871 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		B5B823BD145694D2005E1871 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		B5B823BE145694D2005E1871 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		B5B823BF145694D2005E1871 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		B5B823C714569500005E1871 /* UIAlertView+UITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+UITableView.h"; sourceTree = "<group>"; };
+		B5B823C814569500005E1871 /* UIAlertView+UITableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+UITableView.m"; sourceTree = "<group>"; };
+		B5B823CA145697CB005E1871 /* SMContactsSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMContactsSelector.xib; sourceTree = "<group>"; };
+		B5B823CC145699A7005E1871 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		B5B823CD145699A7005E1871 /* unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unchecked.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5B82382145693AF005E1871 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B823AC14569429005E1871 /* AddressBookUI.framework in Frameworks */,
+				B5B823AA1456941D005E1871 /* AddressBook.framework in Frameworks */,
+				B5B8238A145693AF005E1871 /* UIKit.framework in Frameworks */,
+				B5B8238C145693AF005E1871 /* Foundation.framework in Frameworks */,
+				B5B8238E145693AF005E1871 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5B8237A145693AF005E1871 = {
+			isa = PBXGroup;
+			children = (
+				B5B8238F145693AF005E1871 /* MultiContactsSelector */,
+				B5B82388145693AF005E1871 /* Frameworks */,
+				B5B82386145693AF005E1871 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5B82386145693AF005E1871 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5B82385145693AF005E1871 /* MultiContactsSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5B82388145693AF005E1871 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823AB14569429005E1871 /* AddressBookUI.framework */,
+				B5B823A91456941D005E1871 /* AddressBook.framework */,
+				B5B82389145693AF005E1871 /* UIKit.framework */,
+				B5B8238B145693AF005E1871 /* Foundation.framework */,
+				B5B8238D145693AF005E1871 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5B8238F145693AF005E1871 /* MultiContactsSelector */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823AD14569430005E1871 /* SMContactsSelector */,
+				B5B82398145693AF005E1871 /* AppDelegate.h */,
+				B5B82399145693AF005E1871 /* AppDelegate.m */,
+				B5B8239B145693AF005E1871 /* ViewController.h */,
+				B5B8239C145693AF005E1871 /* ViewController.m */,
+				B5B8239E145693AF005E1871 /* ViewController.xib */,
+				B5B82390145693AF005E1871 /* Supporting Files */,
+			);
+			path = MultiContactsSelector;
+			sourceTree = "<group>";
+		};
+		B5B82390145693AF005E1871 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B5B82391145693AF005E1871 /* MultiContactsSelector-Info.plist */,
+				B5B82392145693AF005E1871 /* InfoPlist.strings */,
+				B5B82395145693AF005E1871 /* main.m */,
+				B5B82397145693AF005E1871 /* MultiContactsSelector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B5B823AD14569430005E1871 /* SMContactsSelector */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823D0145699AC005E1871 /* Images */,
+				B5B823C6145694F6005E1871 /* UIAlertView+UITableView */,
+				B5B823B11456949E005E1871 /* Additions */,
+				B5B823A6145693E2005E1871 /* SMContactsSelector.h */,
+				B5B823A7145693E2005E1871 /* SMContactsSelector.m */,
+				B5B823CA145697CB005E1871 /* SMContactsSelector.xib */,
+			);
+			name = SMContactsSelector;
+			sourceTree = "<group>";
+		};
+		B5B823B11456949E005E1871 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823B2145694C6005E1871 /* JSON */,
+				B5B823AE1456949A005E1871 /* NSString+Additions.h */,
+				B5B823AF1456949A005E1871 /* NSString+Additions.h.m */,
+			);
+			name = Additions;
+			sourceTree = "<group>";
+		};
+		B5B823B2145694C6005E1871 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823B3145694D2005E1871 /* JSON.h */,
+				B5B823B4145694D2005E1871 /* NSObject+SBJSON.h */,
+				B5B823B5145694D2005E1871 /* NSObject+SBJSON.m */,
+				B5B823B6145694D2005E1871 /* NSString+SBJSON.h */,
+				B5B823B7145694D2005E1871 /* NSString+SBJSON.m */,
+				B5B823B8145694D2005E1871 /* SBJSON.h */,
+				B5B823B9145694D2005E1871 /* SBJSON.m */,
+				B5B823BA145694D2005E1871 /* SBJsonBase.h */,
+				B5B823BB145694D2005E1871 /* SBJsonBase.m */,
+				B5B823BC145694D2005E1871 /* SBJsonParser.h */,
+				B5B823BD145694D2005E1871 /* SBJsonParser.m */,
+				B5B823BE145694D2005E1871 /* SBJsonWriter.h */,
+				B5B823BF145694D2005E1871 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		B5B823C6145694F6005E1871 /* UIAlertView+UITableView */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823C714569500005E1871 /* UIAlertView+UITableView.h */,
+				B5B823C814569500005E1871 /* UIAlertView+UITableView.m */,
+			);
+			name = "UIAlertView+UITableView";
+			sourceTree = "<group>";
+		};
+		B5B823D0145699AC005E1871 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5B823CC145699A7005E1871 /* checked.png */,
+				B5B823CD145699A7005E1871 /* unchecked.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5B82384145693AF005E1871 /* MultiContactsSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5B823A3145693AF005E1871 /* Build configuration list for PBXNativeTarget "MultiContactsSelector" */;
+			buildPhases = (
+				B5B82381145693AF005E1871 /* Sources */,
+				B5B82382145693AF005E1871 /* Frameworks */,
+				B5B82383145693AF005E1871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiContactsSelector;
+			productName = MultiContactsSelector;
+			productReference = B5B82385145693AF005E1871 /* MultiContactsSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5B8237C145693AF005E1871 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B5B8237F145693AF005E1871 /* Build configuration list for PBXProject "MultiContactsSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B5B8237A145693AF005E1871;
+			productRefGroup = B5B82386145693AF005E1871 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5B82384145693AF005E1871 /* MultiContactsSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5B82383145693AF005E1871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B82394145693AF005E1871 /* InfoPlist.strings in Resources */,
+				B5B823A0145693AF005E1871 /* ViewController.xib in Resources */,
+				B5B823CB145697CB005E1871 /* SMContactsSelector.xib in Resources */,
+				B5B823CE145699A7005E1871 /* checked.png in Resources */,
+				B5B823CF145699A7005E1871 /* unchecked.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5B82381145693AF005E1871 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5B82396145693AF005E1871 /* main.m in Sources */,
+				B5B8239A145693AF005E1871 /* AppDelegate.m in Sources */,
+				B5B8239D145693AF005E1871 /* ViewController.m in Sources */,
+				B5B823A8145693E2005E1871 /* SMContactsSelector.m in Sources */,
+				B5B823B01456949A005E1871 /* NSString+Additions.h.m in Sources */,
+				B5B823C0145694D2005E1871 /* NSObject+SBJSON.m in Sources */,
+				B5B823C1145694D2005E1871 /* NSString+SBJSON.m in Sources */,
+				B5B823C2145694D2005E1871 /* SBJSON.m in Sources */,
+				B5B823C3145694D2005E1871 /* SBJsonBase.m in Sources */,
+				B5B823C4145694D2005E1871 /* SBJsonParser.m in Sources */,
+				B5B823C5145694D2005E1871 /* SBJsonWriter.m in Sources */,
+				B5B823C914569500005E1871 /* UIAlertView+UITableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5B82392145693AF005E1871 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B82393145693AF005E1871 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B5B8239E145693AF005E1871 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5B8239F145693AF005E1871 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5B823A1145693AF005E1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B5B823A2145693AF005E1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5B823A4145693AF005E1871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiContactsSelector/MultiContactsSelector-Prefix.pch";
+				INFOPLIST_FILE = "MultiContactsSelector/MultiContactsSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B5B823A5145693AF005E1871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiContactsSelector/MultiContactsSelector-Prefix.pch";
+				INFOPLIST_FILE = "MultiContactsSelector/MultiContactsSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5B8237F145693AF005E1871 /* Build configuration list for PBXProject "MultiContactsSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B823A1145693AF005E1871 /* Debug */,
+				B5B823A2145693AF005E1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5B823A3145693AF005E1871 /* Build configuration list for PBXNativeTarget "MultiContactsSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5B823A4145693AF005E1871 /* Debug */,
+				B5B823A5145693AF005E1871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5B8237C145693AF005E1871 /* Project object */;
+}
