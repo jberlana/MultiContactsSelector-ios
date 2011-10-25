@@ -1,5 +1,5 @@
 //
-//  PWTableViewController.h
+//  SMContactsSelector.h
 //  IguanaGet
 //
 //  Created by Sergio on 03/03/11.
