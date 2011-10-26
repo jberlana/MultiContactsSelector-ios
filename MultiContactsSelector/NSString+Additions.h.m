@@ -125,4 +125,10 @@
     
     return self;
 }
+
+- (BOOL)containsNullString
+{
+    return ([[self lowercaseString] containsString:@"null"]) ? YES : NO;
+}
+
 @end

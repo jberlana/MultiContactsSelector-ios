@@ -270,7 +270,7 @@
 			NSString *name = [dict valueForKey:@"name"];
 			name = [name stringByReplacingOccurrencesOfString:@" " withString:@""];
 			
-			if (![name isLetter]) 
+			if ((![name isLetter]) && (![name containsNullString]))
 			{
 				[array addObject:dict];
 			}

@@ -28,4 +28,6 @@
 
 - (NSString *)reformatTelephone;
 
+- (BOOL)containsNullString;
+
 @end
